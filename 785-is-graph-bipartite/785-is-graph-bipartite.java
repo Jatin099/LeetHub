@@ -21,3 +21,6 @@ class Solution {
         return true;
     }
 }
+
+// Time : O(V + E)
+// Space : O(V)
