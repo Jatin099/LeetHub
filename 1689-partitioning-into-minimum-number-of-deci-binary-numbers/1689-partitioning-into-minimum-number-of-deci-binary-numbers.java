@@ -3,10 +3,8 @@ class Solution {
         int len = n.length();
         int max = 0;
         for(int i=0; i<len; ++i){
-            int ne = n.charAt(i) - '0';
-            if(ne>max){
-                max = ne;
-            }
+            max = Math.max(n.charAt(i) - '0',max);
+           
             if(max==9){
                 break;
             }
