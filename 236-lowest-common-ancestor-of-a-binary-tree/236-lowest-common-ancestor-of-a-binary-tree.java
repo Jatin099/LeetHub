@@ -7,6 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+/*
 class Solution {
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
@@ -54,7 +55,7 @@ class Solution {
 
 }
 
-/*
+*/
 class Solution {
 
     private TreeNode ans;
@@ -96,4 +97,3 @@ class Solution {
         return this.ans;
     }
 }
-*/
